@@ -1,5 +1,5 @@
 {
-  "name": "node-mysql-restful-api",
+  "name": "node-mysql-omega",
   "version": "0.0.1",
   "scripts": {
     "start": "node Server.js"
@@ -13,5 +13,14 @@
   "main": "REST.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ash8454/node-mysql-restapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ash8454/node-mysql-restapi/issues"
+  },
+  "homepage": "https://github.com/ash8454/node-mysql-restapi#readme"
 }
