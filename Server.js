@@ -17,15 +17,16 @@ REST.prototype.connectMysql = function() {
     var pool      =    mysql.createPool({
         connectionLimit : 100,
         // host     : 'localhost',
+        // port     : '3306',
         // user     : 'root',
-        // password : '',
-        // database : 'restful_api_demo',
+        // password : 'omega1234',
+        // database : 'omega',
         // debug    :  false
         host     : 'omega-db.chhua1e87azu.us-east-1.rds.amazonaws.com',
         port     : '3306',
         user     : 'omega',
         password : 'omega1234',
-        database : 'restful_api_demo',
+        database : 'Omega',
         debug    :  false
     });
     pool.getConnection(function(err,connection){
