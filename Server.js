@@ -28,6 +28,7 @@ REST.prototype.connectMysql = function() {
         database : 'Omega',
         debug    :  false
     });
+    
     pool.getConnection(function(err,connection){
         if(err) {
           self.stop(err);
